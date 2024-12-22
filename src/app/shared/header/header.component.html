@@ -7,10 +7,9 @@
 
 
 
-  <header class="flex h-14 flex-row items-center justify-between bg-gradient-to-r from-red-900 to-red-700  px-3 text-pink-100">
-    <ul class="flex space-x-3">      
-        <!--li><a routerLink="/login">Login</a></li-->
-        <li><a (click)="logout()">Sair</a></li>
+  <header class="flex h-14 flex-row items-center justify-between bg-gradient-to-r from-[#2a2b2a] to-[#141414]  px-3 text-purple-200">
+    <ul class="flex space-x-3 bg-[#242524] hover:bg-[#000] px-2 py-1 rounded-md">    
+        <li><a class="cursor-pointer" (click)="logout()">Sair</a></li>
     </ul>
     <div class="flex gap-2 justify-center items-center">
       <a routerLink="/home">{{user().nome}}</a>
