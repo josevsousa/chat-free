@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.imgAvatar{
+    border-radius: 50%;
+    width: 83px;
+    height: 83px;
+    margin-top: 11px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+  }
+
+  .imgAvatarHeader{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #b18282;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+  }
