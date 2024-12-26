@@ -1,0 +1,15 @@
+
+    @if (userMsg()) {
+        <div class="flex justify-end w-full ">
+            <p class="bg-blue-800 p-3 rounded-md">user-message works! dfjslfj ldkjfslf s lkdjfslf sdkjfsl f</p>
+            <div class="set set_position_D" style="background-image: url('../../../../assets/icons/set_D.png');" ></div>
+             <img src="{{photoAvatar()}}" width="50" height="50" alt="" />
+        </div>
+    }@else {
+
+        <div class="flex w-full ">
+            <img src="{{photoAvatar()}}" width="50" height="50" alt="" />
+            <div class="set set_position_E" style="background-image: url('../../../../assets/icons/set_E.png');" ></div>
+            <p class="bg-slate-800 p-3 rounded-md">user-message works! dfjslfj ldkjfslf s lkdjfslf sdkjfsl f</p>
+        </div>
+    }

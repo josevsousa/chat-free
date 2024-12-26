@@ -1,12 +1,15 @@
 import { Component, inject, signal } from '@angular/core';
 import { FormControl, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
 import { UtilsService } from '../../services/utils.service';
-import { SIGNAL } from '@angular/core/primitives/signals';
 import { RouterModule } from '@angular/router';
+
+import  {MatButtonModule} from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+const material = [ MatButtonModule, MatIconModule ];
 
 @Component({
   selector: 'app-login',
-  imports: [FormsModule, ReactiveFormsModule, RouterModule],
+  imports: [FormsModule, ReactiveFormsModule, RouterModule, material],
   templateUrl: './login.component.html',
   styleUrl: './login.component.scss'
 })
