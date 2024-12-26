@@ -1,3 +1,5 @@
+/* @vite-ignore */
+
 import { Component, inject, OnInit, signal } from '@angular/core';
 import { HeaderComponent } from '../../shared/header/header.component';
 import { FooterComponent } from '../../shared/footer/footer.component';
