@@ -12,4 +12,5 @@ const Material = [MatIconModule]
 export class UserMessageComponent {
   photoAvatar = input('');
   userMsg = input(true);
+  msg = input('messagem enviada');
 }

@@ -21,7 +21,7 @@ export class LoginComponent {
   profileForm = new FormGroup({
     firstName: new FormControl('', [Validators.required, Validators.minLength(3)]),
   });
-
+    
   //vars
   photoAvatar = signal('../../assets/images/photo-user.png');
 
